@@ -1,0 +1,41 @@
+body{
+    background-image:url(pic.jpg);
+    font-family:oswald;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: yellow;
+}
+#out{
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: white; 
+    background-color: black;
+    color:white;
+    width: 500px;
+    height: 100px ;
+    padding: 5px;
+   
+}
+#guide{
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: white; 
+    background-color: black;
+    color:white;
+    width: 500px;
+    height: 600px ;
+    padding: 5px;
+    position:fixed;
+    top: 0px;
+    left: 600px
+}
+
+#ss:active{
+    background-color: rgb(15, 234, 51);
+    
+}
+
+
+
+

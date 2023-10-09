@@ -1,0 +1,26 @@
+/* Add your existing CSS styles here */
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.box:hover {
+    background-color: #e40e0e;
+    transform: scale(1.1);
+}
+
+.box.clicked {
+    background-color: #0ceb17; /* Change color on click */
+}
