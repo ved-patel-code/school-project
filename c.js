@@ -43,7 +43,7 @@ function submit() {
       "area req to set up solar plant = " +
       y +  " sq feet"+
       "<br>" +
-      "your savings = " +
+      "your monthly savings = " +
       a +
       "<br>" +
       "solar panel should face in south direction during installing "+"<br>"+
@@ -56,7 +56,7 @@ function submit() {
       "area req to set up solar plant = " +
       y +  " sq feet"+
       "<br>" +
-      "your savings = " +
+      "your monthly savings = " +
       a +
       "<br>" +
       "solar panel should face in north direction during installing"+"<br>"+
