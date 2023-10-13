@@ -130,7 +130,7 @@ body {
 /* ans*/
 #out{
     position: relative;
-    left: 100px;
+    left: 10px;
     bottom: 200px;
     border-style: ridge;
     border-radius: 5px;
@@ -226,14 +226,14 @@ body {
     height: 350px;
     width: auto;
     margin: 10px;
-    margin-left: 1000px;
+    margin-left: 700px;
     
 }
 #pho {
     height: 350px;
     width: auto;
     align-content: center;
-    margin-left: 350px;
+    margin-left: 70px;
 }
 .gg {
     color: red;
@@ -248,7 +248,7 @@ body {
     height: 200px;
     width: auto;
     margin: 10px;
-    margin-left: 400px;
+    margin-left: 250px;
     
 }
 .o2{
