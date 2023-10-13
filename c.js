@@ -38,7 +38,7 @@ function submit() {
   if (north.checked) {
     document.getElementById("out").innerHTML =
       "total units in 1 day produce by plant = " +
-      x + "
+      x +
       "<br>" +
       "area req to set up solar plant = " +
       y +  " sq feet"+
