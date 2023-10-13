@@ -28,7 +28,7 @@ function submit() {
   var unit = document.getElementById("unit").value;
   var bill = document.getElementById("bill").value;
   var area = document.getElementById("area").value;
-  var y = area * 80; //gives area req for plant
+  var y = area * 130; //gives area req for plant
   var x = area * 4; // give units produced by palnt in day
   var b = x * unit; //gives 1 day money produced by solar
   var a = b * 30 - bill;
@@ -38,7 +38,7 @@ function submit() {
   if (north.checked) {
     document.getElementById("out").innerHTML =
       "total units in 1 day produce by plant = " +
-      x +
+      x + "sq feet"+
       "<br>" +
       "area req to set up solar plant = " +
       y +
@@ -50,7 +50,7 @@ function submit() {
   } else if (south.checked) {
     document.getElementById("out").innerHTML =
       "total units in 1 day produce by plant = " +
-      x +
+      x +  "sq feet"+
       "<br>" +
       "area req to set up solar plant = " +
       y +
