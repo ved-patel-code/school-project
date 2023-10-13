@@ -46,7 +46,7 @@ function submit() {
       "your monthly savings = " +
       a +
       "<br>" +
-      "solar panel should face in south direction during installing "+"<br>"+
+      "solar panel should face in south direction during installing "+"<br>"+"<br>"+
       "monthly co2 emissions saved by solar plant = "+(x*30)*0.99+" KG" ;
   } else if (south.checked) {
     document.getElementById("out").innerHTML =
@@ -59,7 +59,7 @@ function submit() {
       "your monthly savings = " +
       a +
       "<br>" +
-      "solar panel should face in north direction during installing"+"<br>"+
+      "solar panel should face in north direction during installing"+"<br>"+"<br>"+
       "monthly co2 emissions saved by solar plant = "+(x*30)*0.99+" KG" ;
   } else {
     document.getElementById("out").innerHTML = "please select location";
