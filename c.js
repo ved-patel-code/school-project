@@ -38,10 +38,10 @@ function submit() {
   if (north.checked) {
     document.getElementById("out").innerHTML =
       "total units in 1 day produce by plant = " +
-      x + " sq feet"+
+      x + "
       "<br>" +
       "area req to set up solar plant = " +
-      y +
+      y +  " sq feet"+
       "<br>" +
       "your savings = " +
       a +
@@ -50,10 +50,10 @@ function submit() {
   } else if (south.checked) {
     document.getElementById("out").innerHTML =
       "total units in 1 day produce by plant = " +
-      x +  " sq feet"+
+      x +
       "<br>" +
       "area req to set up solar plant = " +
-      y +
+      y +  " sq feet"+
       "<br>" +
       "your savings = " +
       a +
